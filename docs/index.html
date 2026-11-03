@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China: Plan vs Reality</title>
+<style>
+body{font-family:Georgia,serif;max-width:820px;margin:0 auto;padding:24px;line-height:1.65;color:#222}
+h1{font-size:2em;line-height:1.25} h2{margin-top:2.2em;border-bottom:2px solid #b00;padding-bottom:6px}
+img{max-width:100%;height:auto;display:block;margin:16px 0}
+.note{background:#f6f6f6;border-left:4px solid #b00;padding:12px 16px;margin:16px 0}
+table{border-collapse:collapse;width:100%;margin:16px 0} th,td{border:1px solid #ccc;padding:8px;text-align:left}
+footer{margin-top:3em;font-size:.9em;color:#555}
+</style>
+</head>
+<body>
+<h1>China: Plan vs Reality</h1>
+<p><strong>How does a country plan its economy in five year blocks? Did the last plan hit its targets? How do the provinces differ? Who lives where? And what comes next?</strong></p>
+<p>This project answers those questions in plain words, with numbers you can check. It is written for a beginner. Every idea is explained before it is used, and every number names its source.</p>
+<p>One thing to know up front: China does not hold competitive presidential elections, so there is no elections chapter here. This is a planning, demographics, and macroeconomics project.</p>
+<p>Full code, data, and sources: <a href="https://github.com/jwavalosq/china-plan-vs-reality">github.com/jwavalosq/china-plan-vs-reality</a></p>
+
+<h2>Chapter 1. How planning works</h2>
+<p>Every five years, China writes a plan. It starts with research and public consultation, then the Communist Party leadership sets the direction, then the National People's Congress, the national legislature, formally adopts it. Ministries, provinces, and state companies then turn the national targets into their own detailed plans.</p>
+<p>Targets come in two kinds. <strong>Binding targets</strong> are promises with accountability, for example pollution limits and food security. <strong>Indicative targets</strong> are goals to aim for, for example growth and research spending. The 14th plan had 20 quantitative targets, 8 of them binding. Alongside the five year plans sit Long-Range Objectives through 2035, the longer horizon the plans build toward.</p>
+<img src="charts/01_plan_timeline.png" alt="Timeline of China's fifteen five year plans, 1953 to 2030">
+<div class="note">The timeline runs from the 1st plan (1953 to 1957) to the 15th plan (2026 to 2030). The early plans ran an economy of farms and factories. The reform era plans, from 1978 onward, ran an economy opening to markets and trade.</div>
+
+<h2>Chapter 2. Plans through history: growth, goals, and failures</h2>
+<p>The long story in one paragraph: China was one of the poorest countries on earth in 1978, and it is now the world's second largest economy. That transformation came from planning plus markets, not from planning alone. And it came with real failures that this project does not hide.</p>
+<p>GDP rose from 59.8 billion dollars in 1960 to 149.8 billion in 1978 to 18,729.7 billion in 2024. GDP per person rose from 89.7 dollars to 156.7 dollars to 13,293 dollars across the same years. From 1978 to 2015, the economy grew about 9.8 percent a year on World Bank data.</p>
+<img src="charts/02_gdp_log.png" alt="China GDP on a log scale, 1960 to 2024">
+<img src="charts/02_gdp_per_capita.png" alt="China GDP per person, 1960 to 2024">
+<img src="charts/02_growth_by_plan.png" alt="Average annual GDP growth by plan period">
+<p>Growth was fastest in the 11th plan period (11.30 percent a year), then slowed step by step: 7.91 percent in the 12th, 5.77 percent in the 13th, 5.41 percent in the 14th. Slower growth at a much larger size is normal. Five percent of a 19 trillion dollar economy is far more new output than 11 percent of a 3 trillion dollar economy.</p>
+<p>Extreme poverty at the World Bank 2.15 dollar a day line fell from 97.0 percent in 1981 to 0.0 percent in 2019. On China's own rural poverty line, the official count fell from 770 million people at the end of 1978 to 98.99 million in 2012 to zero in 2020.</p>
+<img src="charts/02_poverty.png" alt="Extreme poverty rate in China, 1981 to 2021">
+<p>Life expectancy rose from 33.4 years in 1960, a famine year dip, to 63.1 years in 1978 to 78.0 years in 2024 on the World Bank series. The official figure for 2024 is 79.0 years. Both are shown, because the two series differ and the reader should see that.</p>
+<img src="charts/02_life_expectancy.png" alt="Life expectancy in China, 1960 to 2024">
+<p>Cities transformed the country. The urban share rose from 17.9 percent in 1978 to 67.89 percent in 2025 (the national statistics office permanent resident rate). Births fell from 17.86 million in 2016 to 7.92 million in 2025, and the population has now fallen four years in a row.</p>
+<img src="charts/02_urban_aging.png" alt="Urban share and aging in China">
+<img src="charts/02_births.png" alt="Births per year in China">
+<p>Trade tells the story of opening up and rebalancing. Exports peaked at 35.5 percent of GDP in 2006 and were 20.4 percent in 2024. China now grows more from its own consumers and investment than from exports.</p>
+<img src="charts/02_trade.png" alt="Exports and imports as a share of GDP">
+<h3>Targets versus actuals, plan by plan</h3>
+<table>
+<tr><th>Plan</th><th>Target</th><th>Actual</th></tr>
+<tr><td>2nd plan (1958 to 1962)</td><td>Farm output up 270 percent</td><td>Up about 35 percent</td></tr>
+<tr><td>11th plan (2006 to 2010)</td><td>GDP growth 7.5 percent a year, energy intensity down 20 percent</td><td>Growth 11.2 percent, energy down 19.1 percent</td></tr>
+<tr><td>12th plan (2011 to 2015)</td><td>GDP growth 7 percent a year, energy intensity down 16 percent</td><td>Growth about 7.8 percent, energy down 18.2 percent</td></tr>
+<tr><td>13th plan (2016 to 2020)</td><td>GDP growth at least 6.5 percent a year, energy down 15 percent, carbon down 18 percent</td><td>Growth about 5.8 percent, energy down about 13.8 percent, carbon down about 22 percent</td></tr>
+</table>
+<p>The pattern: growth targets were usually beaten in the fast years and missed when the economy slowed, while environmental targets were mixed, with carbon beating its target in the 13th plan even as energy missed its own.</p>
+<h3>Fourteen policies, judged honestly</h3>
+<p>The project assesses 14 major policies with verdicts of worked, mixed, missed, reversed, or too early to judge. A few examples:</p>
+<ul>
+<li><strong>Reform and Opening (1978 onward): worked.</strong> Markets, private business, and foreign trade transformed a poor agrarian economy into the world's factory and then its second largest economy.</li>
+<li><strong>Household responsibility system: worked.</strong> Giving farm families control of their plots lifted grain output from 304.8 million tons in 1978 to 407.3 million tons in 1984.</li>
+<li><strong>Special Economic Zones: worked.</strong> Shenzhen grew about 54 percent a year from 1980 to 1984 from a fishing town base, and the zone model spread nationwide.</li>
+<li><strong>WTO accession (2001): worked.</strong> Entry into world trade rules supercharged exports and forced domestic firms to compete.</li>
+<li><strong>2008 stimulus (4 trillion yuan): mixed.</strong> It cushioned the global financial crisis but fed debt, overbuilding, and the property boom that later turned.</li>
+<li><strong>Targeted poverty alleviation: worked.</strong> 98.99 million rural poor, 832 counties, and 128,000 villages were covered by a campaign that reached zero on the official count in 2020.</li>
+<li><strong>One-child policy: reversed.</strong> It slowed population growth but aged the country fast. Births fell from 17.86 million in 2016, the year the two-child policy began, to 7.92 million in 2025 despite later three-child rules.</li>
+<li><strong>Tech self-reliance: too early, with a warning sign.</strong> Research spending reached 2.80 percent of GDP in 2025, but the 70 percent chip self-sufficiency goal is described in secondary analysis as largely missed.</li>
+</ul>
+<h3>The failures, not hidden</h3>
+<p>A famine during the Great Leap Forward (1958 to 1962) killed tens of millions. The death toll is contested: government statistics imply about 15 million excess deaths, while scholarly estimates range from 15 million to 46 million, with newer estimates concentrated between 30 million and 46 million. Named estimates are given in notebook 02, and no single number is presented as settled.</p>
+<p>Other failures covered honestly: the Cultural Revolution (1966 to 1976), severe pollution from coal-led growth, overcapacity, debt near 296 percent of GDP in late 2025, a property crash (sales value down 54 percent from 2021), and a shrinking, aging population. Coal still supplied 51.4 percent of energy use in 2025.</p>
+
+<h2>Chapter 3. The 14th plan scorecard: 17 met, 2 missed, 1 not yet reported</h2>
+<p>The 14th plan (2021 to 2025) is scored target by target in notebook 03. Seventeen of its 20 quantitative targets were met. Two were missed: carbon intensity fell about 12 percent against an 18 percent target, and childcare slots reached 4.1 per 1,000 children against a 4.5 target. One is not yet reported: working-age average education, for which no verified 2025 actual was found.</p>
+<img src="charts/03_scorecard_counts.png" alt="14th plan scorecard counts: 17 met, 2 missed, 1 not yet reported">
+<img src="charts/03_targets_vs_actuals.png" alt="14th plan targets versus actuals">
+<p>Reported 2025 results (official figures, attributed as such): GDP 140,187.9 billion yuan, up 5.0 percent; GDP per person 99,665 yuan (13,953 dollars); urbanization 67.89 percent; good air quality days 89.3 percent; surface water grade III or better 91.4 percent; forest coverage past 25 percent; energy production capacity 5.13 billion tons of coal equivalent. The Government Work Report states all 20 targets were accomplished. Both claims are shown side by side in the project, and the project takes no position on which characterization is correct.</p>
+
+<h2>Chapter 4. Provinces differ: the provincial scorecard</h2>
+<p>China is not one economy. It is 31 provincial economies of wildly different size and wealth, and the gaps are the story of this chapter.</p>
+<p>Guangdong (14.15 trillion yuan in 2024) and Jiangsu (13.67 trillion) together are more than a fifth of the national economy. GDP per person runs from about 227,000 yuan in Beijing to about 52,000 yuan in Gansu, a ratio of about 4.4 to 1. In 2025, Tibet grew fastest at 7.0 percent while Liaoning grew slowest at 3.7 percent. The East region holds 39.0 percent of the provincial GDP sum; the Northeast holds 4.7 percent, last by far.</p>
+<img src="charts/04_top10_gdp.png" alt="Top 10 provinces by GDP, 2024">
+<img src="charts/04_gdp_per_capita.png" alt="GDP per person by province, 2024">
+<img src="charts/04_growth_since_2000.png" alt="Provincial GDP growth since 2000">
+<img src="charts/04_urbanization.png" alt="Urbanization by province">
+<div class="note">Provincial GDP per person here uses mid-2022 populations, because 2024 provincial populations were not fetched. The figures are labeled approximate in the notebook for exactly that reason.</div>
+
+<h2>Chapter 5. People and places</h2>
+<p>The 2020 census counted 1,411.78 million people: 91.11 percent Han and 8.89 percent ethnic minorities. The largest minority groups are the Zhuang (19.57 million), Uyghur (11.77 million), Hui (11.38 million), Miao (11.07 million), and Manchu (10.42 million). By the end of 2025 the total was 1,404.89 million, down 3.39 million, the fourth straight annual fall.</p>
+<img src="charts/05_ethnic.png" alt="Ethnic composition from the 2020 census">
+<img src="charts/05_age_structure.png" alt="Age structure of the population">
+<img src="charts/05_regional_gdp.png" alt="GDP by region">
+<p>On religion, the census does not ask the question, and published estimates disagree. The project shows three of them side by side (Pew 2023, CIA 2021, China Social Survey 2010) and explains why they differ, rather than picking one.</p>
+<img src="charts/05_religion.png" alt="Religious composition estimates from three surveys">
+
+<h2>Chapter 6. What comes next: the 15th plan</h2>
+<p>The 15th plan (2026 to 2030) was adopted March 12, 2026. It has 20 indicators across 5 dimensions and 109 major projects. Its core goal is to lay the foundation for doubling GDP per person by 2035 from 2020, which needs about 4.17 percent average growth a year. The 2026 growth target is 4.5 to 5.0 percent.</p>
+<p>Headline targets include: digital economy 12.5 percent of GDP by 2030; patents over 22 per 10,000 people; working-age education 11.7 years (binding); life expectancy 80 years; grain capacity 725 million tons (binding); energy production capacity 5.8 billion tons of coal equivalent.</p>
+<img src="charts/06_targets_2030.png" alt="Selected 15th plan targets for 2030">
+<p>Where sources disagree, the project keeps the disagreement open: non-fossil energy share 25 percent (ICBC and Fidelity) versus about 27 percent (iGDP citing Government Work Report proposals); carbon intensity about 17 percent versus 17.7 percent in brackets. Full-year 2026 results do not exist yet, so 2026 figures are labeled as first three quarters or September 2026 from secondary analysis citing national statistics.</p>
+<div class="note">What to watch: whether growth holds near 5 percent while debt and property stress linger, whether births stabilize, whether the chip and technology goals close their gaps, and whether the carbon targets that the 14th plan missed are met this time.</div>
+
+<h2>What was cut, honestly</h2>
+<ul>
+<li>Provincial energy intensity and provincial research spending: no single public comparable table was found, so neither was charted or guessed.</li>
+<li>Provincial GDP per person uses mid-2022 populations and is labeled approximate.</li>
+<li>Working-age education for 2025: no verified actual found, scored not yet reported.</li>
+<li>Inequality (Gini) series: not fetched, so common prosperity is judged too early; the urban-rural income ratio of 2.31 in 2025 is shown instead.</li>
+<li>No provincial maps: no shapefile was fetched, and none was faked.</li>
+<li>One 15th plan target list found online was rejected because it contradicted verified data.</li>
+<li>World Bank carbon dioxide per person series returned no data from the API and was dropped.</li>
+</ul>
+
+<h2>Sources</h2>
+<p>World Bank Open Data (GDP, growth, poverty, life expectancy, fertility, urbanization, trade, research spending, age structure); National Bureau of Statistics of China and National Development and Reform Commission plan documents and communiques (plan targets, 2025 results, provincial GDP, census, births, energy mix, debt via secondary analysis); Cato Institute and census reports for composition data. Every notebook names its sources, and <a href="https://github.com/jwavalosq/china-plan-vs-reality/blob/main/data/raw/PROVENANCE.md">PROVENANCE.md</a> lists them all.</p>
+<footer>
+<p>Built in Python (pandas, matplotlib) from public data. Notebook 00 explains the setup and the checks. If a number here disagrees with a source you trust, the notebooks show exactly where each number came from so you can check it.</p>
+</footer>
+</body>
+</html>

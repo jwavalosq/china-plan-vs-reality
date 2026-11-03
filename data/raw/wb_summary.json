@@ -1,0 +1,102 @@
+{
+ "gdp_current_usd": [
+  66,
+  1960,
+  2025
+ ],
+ "gdp_per_capita_usd": [
+  66,
+  1960,
+  2025
+ ],
+ "gdp_growth_pct": [
+  65,
+  1961,
+  2025
+ ],
+ "population": [
+  66,
+  1960,
+  2025
+ ],
+ "urban_pop_pct": [
+  66,
+  1960,
+  2025
+ ],
+ "life_expectancy": [
+  65,
+  1960,
+  2024
+ ],
+ "fertility": [
+  65,
+  1960,
+  2024
+ ],
+ "poverty_215": [
+  23,
+  1981,
+  2022
+ ],
+ "exports_pct_gdp": [
+  66,
+  1960,
+  2025
+ ],
+ "imports_pct_gdp": [
+  66,
+  1960,
+  2025
+ ],
+ "energy_use_per_capita": [
+  35,
+  1990,
+  2024
+ ],
+ "co2_per_capita": [
+  0,
+  null,
+  null
+ ],
+ "forest_pct": [
+  35,
+  1990,
+  2024
+ ],
+ "r_and_d_pct_gdp": [
+  28,
+  1996,
+  2023
+ ],
+ "unemployment": [
+  35,
+  1991,
+  2025
+ ],
+ "school_enrollment_secondary": [
+  40,
+  1970,
+  2012
+ ],
+ "age_dependency": [
+  66,
+  1960,
+  2025
+ ],
+ "pop_65_pct": [
+  66,
+  1960,
+  2025
+ ],
+ "pop_0_14_pct": [
+  66,
+  1960,
+  2025
+ ],
+ "rural_pop_pct": [
+  66,
+  1960,
+  2025
+ ]
+}

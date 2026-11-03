@@ -1,0 +1,21 @@
+indicator,type,target,actual,actual_year,status,source,note
+Energy intensity (energy use per unit of GDP),binding,-13.5%,-15%,2021-2025,met,iGDP tracker (Jan-Feb 2026 issue),NDRC reported minus 11.6 percent for 2021-2024 only.
+Carbon intensity (CO2 per unit of GDP),binding,-18%,-12%,2021-2025,missed,iGDP tracker (Jan-Feb 2026 issue),Goldman Sachs (Sep 2025) also expected a miss.
+Good air quality days,binding,87.5%,89.3%,2025,met,Ministry of Ecology and Environment / NBS,"A record high, up 1.9 points on 2024."
+Surface water at grade III or better,binding,85%,91.4%,2025,met,Ministry of Ecology and Environment / NBS,Up 1 point on 2024.
+Forest coverage,binding,24.1%,over 25%,2025,met,"Government Work Report (Mar 5, 2026)","Stated as past 25 percent, not an exact figure."
+Grain production capacity,binding,over 650 million tons,over 700 million tons,2025,met,NBS 2025 Statistical Communique,"Actual is output, not capacity. Output topped 700 million tons for a second straight year."
+Energy production capacity,binding,over 4.6 billion tons of coal equivalent,5.13 billion tons,2025,met,NBS 2025 Statistical Communique,"Actual is output, not capacity."
+"Average education, working-age population",binding,11.3 years,,,not yet reported,,No 2025 actual figure was found in the sources checked for this build.
+Urbanization rate (permanent residents),indicative,65%,67.89%,2025,met,NBS 2025 Statistical Communique,Up 0.89 points on 2024.
+R and D spending growth,indicative,over 7% per year,about 10% per year on average,2021-2025,met,"Government Work Report (Mar 5, 2026)","2025 spending about 3.93 trillion yuan, up 8.2 percent, intensity 2.80 percent of GDP."
+Core digital economy share of GDP,indicative,10% by 2025,10.5%,2024,met,NBS / MIIT reporting,2025 figure not separately reported in sources found. Met ahead of schedule.
+Non-fossil share of energy consumption,indicative,about 20%,21.7%,2025,met,iGDP tracker (Jan-Feb 2026 issue),"Do not confuse with clean energy share of 30.4 percent, which also counts natural gas."
+Surveyed urban unemployment,indicative,at or below 5.5%,5.2% average,2025,met,NBS 2025 Statistical Communique,December 2025 was 5.1 percent.
+New urban jobs created,indicative,over 55 million cumulative,about 62.42 million,2021-2025,met,NBS annual figures,"Annual: 12.69, 12.06, 12.44, 12.56, 12.67 million."
+Life expectancy,indicative,plus 1 year (77.3 to 78.3 years),79.0 years,2024,met,UBP table (Nov 2025),"2025 figure not separately reported in sources found. Cross-check: the World Bank series puts 2024 at 78.0 years, just below the 78.3 target, so official and independent series disagree on this row. Both figures are shown."
+Basic old-age insurance coverage,indicative,95%,95.0%,2024,met,UBP table (Nov 2025),"Met exactly, on the 2024 figure in that table."
+"Childcare slots per 1,000 children under 3",indicative,4.5,4.1,2024,missed,UBP table (Nov 2025),Also flagged at risk in a Goldman Sachs note.
+"Physicians per 1,000 people",indicative,3.2,3.4,2024,met,UBP table (Nov 2025),2025 figure not separately reported in sources found.
+Disposable income growth,indicative,in line with GDP growth,"5.0% real, GDP 5.0%",2025,met,NBS 2025 Statistical Communique,"Per capita disposable income 43,377 yuan."
+Labor productivity growth,indicative,faster than GDP growth,"6.1%, GDP 5.0%",2025,met,NBS 2025 Statistical Communique,"Overall labor productivity 184,413 yuan per person."
