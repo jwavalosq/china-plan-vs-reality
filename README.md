@@ -6,6 +6,8 @@ This project answers those questions in plain words, with numbers you can check.
 
 China does not hold competitive presidential elections, so there is no elections chapter here. This is a planning, demographics, and macroeconomics project.
 
+Read it as a story: https://jwavalosq.github.io/china-plan-vs-reality/
+
 ## Start here
 
 Read the notebooks in order. Each one ends by pointing to the next.
